@@ -1,4 +1,5 @@
 /* eslint-disable no-alert */
 import Homepage from "./pageload";
-
-Homepage();
+import ContactPage from "./contactload";
+// Homepage();
+ContactPage();
