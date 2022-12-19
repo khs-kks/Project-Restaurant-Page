@@ -18,6 +18,11 @@
     --border-line: 1px solid gray;
 }
 
+@font-face {
+    font-family: tangerine;
+    src: url(./Tangerine-Regular.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -62,18 +67,23 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 6rem;
+    font-family: "tangerine";
 }
 
 button {
     background-color: inherit;
     color: inherit;
     border: none;
-    border-bottom: 1.5px solid var(--white);
+    /* border-bottom: 1.5px solid var(--white); */
     padding: var(--spacing-md);
     font-size: 1.5rem;
 }
 
+
+.current-tab {
+    border-bottom: 1.5px solid var(--white);   
+}
 /* MAIN */
 
 .main {
@@ -84,7 +94,7 @@ button {
 
 .main-content {
     min-width: 50%;
-    min-height: 80%;
+    min-height: 70%;
     background-color: black;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
