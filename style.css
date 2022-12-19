@@ -116,3 +116,9 @@ button {
     background-color: rgba(0, 0, 0, 0.75);
     padding-top: var(--spacing-xs);
 }
+
+/* CONTACTS TAB */
+
+.img-location {
+    width: 80%;
+}
