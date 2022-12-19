@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/khs-kks/Project-Restaurant-Page/issues"
   },
-  "homepage": "https://github.com/khs-kks/Project-Restaurant-Page#readme"
+  "homepage": "https://github.com/khs-kks/Project-Restaurant-Page#readme",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
 }
