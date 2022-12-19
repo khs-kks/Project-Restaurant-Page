@@ -1,0 +1,19 @@
+{
+  "name": "project-restaurant-page",
+  "version": "1.0.0",
+  "description": "A project created with plain HTML, CSS, JS Modules and Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khs-kks/Project-Restaurant-Page.git"
+  },
+  "author": "KHS",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/khs-kks/Project-Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/khs-kks/Project-Restaurant-Page#readme"
+}
