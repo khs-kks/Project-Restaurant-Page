@@ -13,8 +13,6 @@
     --spacing-md: 15px;
     --spacing-lg: 20px;
     --spacing-xl: 40px;
-    --container-width: 1200px;
-    --shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     --border-line: 1px solid gray;
 }
 
@@ -125,10 +123,12 @@ button {
 /* MENU TAB  */
 
 .main-content-menu {
+    width: 60%;
+    min-width: fit-content;
     background-color: black;
     background-color: rgba(0, 0, 0, 0.5);
     display: grid;
-    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(350px, 1fr));
     padding: var(--spacing-xl);
     gap: var(--spacing-md);
