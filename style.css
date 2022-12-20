@@ -34,9 +34,8 @@ body {
 
 #content {
     display: grid;
-    grid-template-rows: 1.5fr 5fr 30px;
+    grid-template-rows: 1.5fr minmax(5fr, auto) 30px;
     min-height: 100vh;
-
     background-image: url("./mae-mu-Ehtxtp9Ykvo-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -80,10 +79,10 @@ button {
     font-size: 1.5rem;
 }
 
-
 .current-tab {
-    border-bottom: 1.5px solid var(--white);   
+    border-bottom: 1.5px solid var(--white);
 }
+
 /* MAIN */
 
 .main {
@@ -121,4 +120,50 @@ button {
 
 .img-location {
     width: 80%;
+}
+
+/* MENU TAB  */
+
+.main-content-menu {
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(350px, 1fr));
+    padding: var(--spacing-xl);
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+    border: 1px solid gray;
+}
+
+.menu-item {
+    display: flex;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.75);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+
+}
+
+.food-picture {
+    border-radius: 50%;
+}
+
+.menu-item-title {
+    font-size: 2rem;
+}
+
+.menu-item-ingredients {
+    font-size: 1rem;
+}
+
+.menu-item:hover,
+button:hover {
+    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.75);
+    cursor: pointer;
 }
