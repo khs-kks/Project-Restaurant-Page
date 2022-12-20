@@ -25,6 +25,7 @@ export default function contact() {
 
   const tabcontacts = document.createElement("button");
   tabcontacts.classList.add("tabcontacts");
+  tabcontacts.classList.add("current-tab");
   tabcontacts.textContent = "Contacts";
 
   tabs.appendChild(tabhome);

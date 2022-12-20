@@ -21,6 +21,7 @@ export default function loadMenu() {
 
   const tabmenu = document.createElement("button");
   tabmenu.classList.add("tabmenu");
+  tabmenu.classList.add("current-tab");
   tabmenu.textContent = "Menu";
 
   const tabcontacts = document.createElement("button");

@@ -17,6 +17,7 @@ export default function loadHomepage() {
 
   const tabhome = document.createElement("button");
   tabhome.classList.add("tabhome");
+  tabhome.classList.add("current-tab");
   tabhome.textContent = "Home";
 
   const tabmenu = document.createElement("button");
