@@ -78,7 +78,7 @@ button {
 }
 
 .current-tab {
-    border-bottom: 1.5px solid var(--white);
+    border-bottom: 3px solid var(--white);
 }
 
 /* MAIN */
@@ -162,9 +162,12 @@ button {
     font-size: 1rem;
 }
 
-.menu-item:hover,
-button:hover {
+.menu-item:hover {
     background-color: gray;
     background-color: rgba(128, 128, 128, 0.75);
+    cursor: pointer;
+}
+
+button:hover {
     cursor: pointer;
 }
